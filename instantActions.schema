@@ -44,12 +44,12 @@
                 "description": "Action Object",
                 "required": [
                     "actionId",
-                    "actionName"
+                    "actionType"
                 ],
                 "properties": {
-                    "actionName": {
+                    "actionType": {
                         "type": "string",
-                        "title": "actionName",
+                        "title": "actionType",
                         "description": "Enum of actions as described in the first column of \"Actions and Parameters\"\nIdentifies the function of the action."
                     },
                     "actionId": {
